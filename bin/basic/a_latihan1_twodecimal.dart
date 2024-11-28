@@ -38,5 +38,5 @@ void main(List<String> args) {
 
   //jumlah desimal 2 digit di belakang koma
   //print('The Number is =  ${number.toStringAsFixed(2)}'); //cara-1
-  print('The number is = ' + number.toStringAsFixed(2)); //cara-2
+  print('The number is = ${number.toStringAsFixed(2)}'); //cara-2
 }

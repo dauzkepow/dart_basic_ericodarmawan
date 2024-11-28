@@ -50,5 +50,5 @@ void main(List<String> args) {
   y2 = double.tryParse(stdin.readLineSync() ?? 'no input') ?? 0;
 
   pq = sqrt(pow(x2 - x1, 2) + pow(y2 - y1, 2));
-  print("The distance between tho two points is = " + pq.toStringAsFixed(2));
+  print("The distance between tho two points is = ${pq.toStringAsFixed(2)}");
 }

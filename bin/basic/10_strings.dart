@@ -13,7 +13,7 @@ void main(List<String> args) {
 
   //ingin menulis karakter kutip satu atau dua
   //aksep sequence = kombinasi \ dengan karakter tertentu
-  String s3 = "This is \'String\' dengan karakter petik satu";
+  String s3 = "This is 'String' dengan karakter petik satu";
   String s4 = "This is \"String\" dengan petik dua";
   print(s3);
   print(s4);
@@ -51,11 +51,11 @@ void main(List<String> args) {
 
   //operator concat (+) = menggabungkan dua string menjadi satu
   int? number1 = 20;
-  String? s13 = 'My Number is ' + number1.toString();
+  String? s13 = 'My Number is $number1';
   print(s13); //My Number is 20
 
   int number2 = 30;
-  String s14 = 'My age is ' + number2.toString() + ' tahun';
+  String s14 = 'My age is $number2 tahun';
   print(s14); //My age is 30 tahun
 
   //bentuk lain dengan $
@@ -191,17 +191,17 @@ void main(List<String> args) {
   //method trimLeft()
   String? s32 = ' hello ';
   s32 = s32.trimLeft(); //hilangkan spasi sebelah kiri
-  print(s32 + 'world'); //hello world
+  print('${s32}world'); //hello world
 
   //method trimRight()
   String? s33 = ' hello ';
   s33 = s33.trimRight();
-  print(s33 + 'world'); // helloworld
+  print('${s33}world'); // helloworld
 
   //method trim()
   String? s34 = ' hello ';
   s34 = s34.trim();
-  print(s34 + 'world'); //helloworld
+  print('${s34}world'); //helloworld
 
   //-- mengganti substring dengan substring lain
   //method replaceAll()

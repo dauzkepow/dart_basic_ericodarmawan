@@ -58,7 +58,7 @@ void main(List<String> arguments) {
   output = switch (number) {
     //1 => 'one', //tiap case harus memberi nilai tidak print()
     1 => 'one', //tiap case harus memberi nilai tidak print()
-    2 => 'two' + ' dua',
+    2 => 'two' ' dua',
     3 => 'three',
     _ => 'other number' //wildcard _ pengganti default switch
   };

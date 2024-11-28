@@ -33,5 +33,5 @@ void main(List<String> args) {
   total = barang - (diskon / 100 * barang);
 
   print("diskon = ${hrgdiskon.toStringAsFixed(2)}");
-  print("Harga setelah dapat diskon = " + total.toStringAsFixed(2));
+  print("Harga setelah dapat diskon = ${total.toStringAsFixed(2)}");
 }

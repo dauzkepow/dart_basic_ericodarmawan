@@ -33,5 +33,5 @@ void main(List<String> args) {
 
   //keliling persegi
   double? keliling = 2 * (lebar + tinggi);
-  print("Keliling Persegi = " + keliling.toStringAsFixed(2));
+  print("Keliling Persegi = ${keliling.toStringAsFixed(2)}");
 }
